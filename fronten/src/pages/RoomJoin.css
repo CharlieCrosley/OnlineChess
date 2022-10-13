@@ -1,0 +1,56 @@
+body {
+    height: 90vh;
+    background-color: #3a3b3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper h1,
+h3 {
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+input,
+select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #125a33;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+input:focus{
+    /* Remove outline when selecting input box */
+    outline: none;
+}
+input::-webkit-inner-spin-button{
+    /* Hide number input arrows */
+    -webkit-appearance: none;
+}
+input[type=number] {
+    /* Hide number input arrows */
+    -moz-appearance: textfield;
+}
+.button {
+    color: black;
+    white-space: nowrap;
+    background-color: #31d47d;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 2px;
+    transition: all 150ms ease-out;  
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(10, 117, 69);
+}
